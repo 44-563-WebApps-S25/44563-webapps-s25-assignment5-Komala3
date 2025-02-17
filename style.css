@@ -1,0 +1,60 @@
+/* General table styles */
+.table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+/* Styling for the table caption */
+.table caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #4CAF50;
+    text-align: center;
+}
+
+/* Header styles */
+.table th {
+    background-color: #009688;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    border: 2px solid #00796b;
+}
+
+/* Cell styles */
+.table td {
+    background-color: #f1f1f1;
+    color: #555;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+/* Zebra striping for rows */
+.table tr:nth-child(even) {
+    background-color: #e0f2f1;
+}
+
+/* Hover effect for rows */
+.table tr:hover {
+    background-color: #b2dfdb;
+}
+
+/* Add a border and padding around the entire table */
+.table {
+    border: 3px solid #00796b;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Add spacing between rows and improve layout */
+.table th, .table td {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
